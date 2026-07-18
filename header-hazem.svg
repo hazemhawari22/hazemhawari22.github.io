@@ -1,0 +1,73 @@
+<svg width="100%" height="260" viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0e13"/>
+      <stop offset="100%" stop-color="#151b24"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7fb0d9" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#7fb0d9" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="frame"><rect x="0" y="0" width="1200" height="260" rx="0"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="260" fill="url(#bg)"/>
+
+    <!-- coordinate grid, faint -->
+    <g stroke="#2a3340" stroke-width="1" opacity="0.5">
+      <line x1="0" y1="65" x2="1200" y2="65"/>
+      <line x1="0" y1="130" x2="1200" y2="130"/>
+      <line x1="0" y1="195" x2="1200" y2="195"/>
+      <line x1="150" y1="0" x2="150" y2="260"/>
+      <line x1="450" y1="0" x2="450" y2="260"/>
+      <line x1="750" y1="0" x2="750" y2="260"/>
+      <line x1="1050" y1="0" x2="1050" y2="260"/>
+    </g>
+
+    <!-- ambient glow behind title -->
+    <circle cx="600" cy="130" r="260" fill="url(#glow)"/>
+
+    <!-- parametric curves suggesting a Darboux frame tracing a surface -->
+    <path d="M -40 210 C 200 40, 380 260, 600 110 S 980 -20, 1240 150" fill="none" stroke="#3f5a70" stroke-width="1.2" opacity="0.7"/>
+    <path d="M -40 60 C 220 220, 420 10, 640 160 S 1000 320, 1240 40" fill="none" stroke="#2c4152" stroke-width="1" opacity="0.5"/>
+
+    <!-- the traced curve with moving frame markers -->
+    <path id="trace" d="M -40 150 C 180 60, 340 220, 600 130 S 940 20, 1240 170" fill="none" stroke="#c9a24a" stroke-width="1.6" stroke-dasharray="4 7">
+      <animate attributeName="stroke-dashoffset" from="0" to="-110" dur="7s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- orbiting frame point with normal/tangent ticks -->
+    <g>
+      <animateMotion dur="9s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#trace"/>
+      </animateMotion>
+      <circle r="4.5" fill="#c9a24a"/>
+      <line x1="0" y1="0" x2="0" y2="-16" stroke="#7fb0d9" stroke-width="1.4"/>
+      <line x1="0" y1="0" x2="16" y2="0" stroke="#e7834a" stroke-width="1.4"/>
+    </g>
+
+    <!-- scattered data points -->
+    <g fill="#7fb0d9" opacity="0.55">
+      <circle cx="120" cy="90" r="2"/>
+      <circle cx="260" cy="185" r="2.4"/>
+      <circle cx="520" cy="60" r="2"/>
+      <circle cx="720" cy="200" r="2.6"/>
+      <circle cx="880" cy="95" r="2"/>
+      <circle cx="1040" cy="175" r="2.2"/>
+      <circle cx="1140" cy="70" r="2"/>
+    </g>
+
+    <!-- title block -->
+    <text x="80" y="120" font-family="Georgia, 'Times New Roman', serif" font-size="56" fill="#f3f1ea" font-weight="500">Hazem</text>
+    <text x="80" y="156" font-family="'Courier New', monospace" font-size="16" fill="#7fb0d9" letter-spacing="1">Mathematics &amp; Data Science</text>
+    <text x="80" y="182" font-family="'Courier New', monospace" font-size="13" fill="#6b7684" letter-spacing="0.5">Analysis and Geometry · Universitas Andalas</text>
+
+    <!-- corner tick / axis mark -->
+    <g stroke="#4a5568" stroke-width="1" opacity="0.6">
+      <line x1="80" y1="205" x2="80" y2="215"/>
+      <line x1="80" y1="210" x2="200" y2="210"/>
+    </g>
+    <text x="80" y="232" font-family="'Courier New', monospace" font-size="11" fill="#4a5568">κ(t), τ(t) — Darboux frame along a curve</text>
+  </g>
+</svg>
