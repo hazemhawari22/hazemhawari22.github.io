@@ -82,39 +82,42 @@ Empat semester saya habiskan sebagai asisten laboratorium dan pengajaran, membim
 
 ---
 
-## 📊 GitHub Stats & Activity
+## 📊 Activity Log
 
-<div align="center">
+```
+$ git log --author=hazemhawari22 --stat --since="account creation"
+```
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=hazemhawari22&show_icons=true&theme=transparent&hide_border=true&count_private=true&bg_color=0B0E13&title_color=C9A24A&icon_color=7FB0D9&text_color=D7DEE6&ring_color=C9A24A)
+| | |
+|---|---|
+| **repositories** | ![](https://img.shields.io/github/stars/hazemhawari22?label=%20&style=flat-square&color=7FB0D9) |
+| **profile views** | ![](https://komarev.com/ghpvc/?username=hazemhawari22&color=7FB0D9&style=flat-square&label=%20) |
+| **currently reading commits from** | Padang, Indonesia — UTC+7 |
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=hazemhawari22&theme=transparent&hide_border=true&date_format=j%20M%5B%20Y%5D&background=0B0E13&stroke=7FB0D9&ring=C9A24A&fire=C9A24A&currStreakLabel=C9A24A&sideLabels=D7DEE6&dates=D7DEE6)
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=hazemhawari22&theme=react-dark&hide_border=true&area=true&bg_color=0B0E13&color=C9A24A&line=7FB0D9&point=C9A24A&area_color=7FB0D9)
-
-</div>
-
----
-
-<div align="center">
-
-### 🏆 GitHub Trophies
-
-![Trophies](https://github-profile-trophy.vercel.app/?username=hazemhawari22&theme=onedark&no-frame=true&no-bg=true&margin-w=8&column=6&title=Commits,Stars,Followers,Repositories)
-
-</div>
+<sub>this log updates itself — check back later and the numbers will have moved</sub>
 
 ---
 
-### 💬 Let's Connect
+### 📇 Reach Me
 
-[![Ask Me Anything](https://img.shields.io/badge/💭_Ask_Me_Anything-C9A24A?style=for-the-badge&labelColor=0B0E13)](https://github.com/hazemhawari22/hazemhawari22/issues/new?title=Hi+Hazem!&body=Tulis+pesan+atau+pertanyaan+kamu+di+sini...)
-[![GitHub followers](https://img.shields.io/github/followers/hazemhawari22?label=Followers&style=for-the-badge&color=7FB0D9&labelColor=0B0E13&logo=github)](https://github.com/hazemhawari22?tab=followers)
-[![Profile Views](https://komarev.com/ghpvc/?username=hazemhawari22&color=7FB0D9&style=for-the-badge&label=PROFILE+VIEWS)](#)
-
-📬 **hazemhawari22@gmail.com** · [LinkedIn](https://www.linkedin.com/in/hazem-hawari/) · [Portfolio](https://hazemhawari22.github.io)
-
-</div>
+<table>
+<tr>
+<td width="120"><sub>mail</sub></td>
+<td><a href="mailto:hazemhawari22@gmail.com">hazemhawari22@gmail.com</a></td>
+</tr>
+<tr>
+<td><sub>linkedin</sub></td>
+<td><a href="https://www.linkedin.com/in/hazem-hawari/">linkedin.com/in/hazem-hawari</a></td>
+</tr>
+<tr>
+<td><sub>portfolio</sub></td>
+<td><a href="https://hazemhawari22.github.io">hazemhawari22.github.io</a></td>
+</tr>
+<tr>
+<td><sub>ask</sub></td>
+<td><a href="https://github.com/hazemhawari22/hazemhawari22/issues/new?title=Hi+Hazem!&body=Tulis+pesan+atau+pertanyaan+kamu+di+sini...">open an issue, I read every one</a></td>
+</tr>
+</table>
 
 <div align="center">
 
