@@ -33,7 +33,7 @@ Empat semester saya habiskan sebagai asisten laboratorium dan pengajaran, membim
 
 |                     |                                                                        |
 | ------------------- | ---------------------------------------------------------------------- |
-| 🎓 **Education**     | S.Mat. — Bachelor of Mathematics & Data Science, Universitas Andalas   |
+| 🎓 **Education**     | S,Si. — Bachelor of Science, Universitas Andalas   |
 | 🧭 **Specialization** | Analysis and Geometry                                                 |
 | 📍 **Location**      | Padang, Indonesia                                                     |
 | 💼 **Focus**         | Data Analytics · Banking · Business Development · Finance · Teaching  |
