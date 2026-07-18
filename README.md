@@ -18,9 +18,9 @@
 
 > *"Setiap kurva punya persamaan; setiap dataset punya cerita. Saya di sini untuk menemukan keduanya."*
 
-Saya **Hazem** — lulusan **Matematika dan Data Science, Universitas Andalas** (GPA 3.48/4.00), spesialisasi **Analysis and Geometry**. Skripsi saya menurunkan kinematika sliding-rolling antar permukaan reguler menggunakan pendekatan **Darboux frame**, tervalidasi lewat simulasi numerik di MATLAB.
+Saya **Hazem** — lulusan **Matematika dan Data Science, Universitas Andalas** (GPA 3.48/4.00), spesialisasi **Analysis and Geometry**. Skripsi saya menurunkan persamaan kecepatan translasi dan rotasi pada gerak sliding-rolling menggunakan Darboux frame dan pendekatan adjoint, tervalidasi lewat simulasi numerik di MATLAB.
 
-Empat semester saya habiskan sebagai asisten laboratorium dan pengajaran, membimbing 40–60 mahasiswa per semester. Sekarang saya membawa cara berpikir yang sama — presisi, sistematis, berbasis bukti — ke dunia data dan bisnis.
+Empat semester saya habiskan sebagai asisten laboratorium dan pengajaran, membimbing 40–60 mahasiswa per semester lintas lima mata kuliah. Sekarang saya membawa cara berpikir yang sama — presisi, sistematis, berbasis bukti — ke dunia data, riset kuantitatif, dan bisnis.
 
 ### 🎯 What I Do
 
@@ -45,40 +45,71 @@ Empat semester saya habiskan sebagai asisten laboratorium dan pengajaran, membim
 
 ### 📊 Data & Quantitative Tools
 
-![Skills](https://skillicons.dev/icons?i=python,r,matlab&theme=dark)
+![Skills](https://skillicons.dev/icons?i=python,r,matlab,cpp&theme=dark)
 
 [![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](#)
+[![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](#)
+[![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)](#)
 [![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)](#)
 [![Google Sheets](https://img.shields.io/badge/Google_Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white)](#)
 [![Minitab](https://img.shields.io/badge/Minitab-6C2EB9?style=for-the-badge)](#)
+[![MAPLE](https://img.shields.io/badge/MAPLE-CC0000?style=for-the-badge)](#)
 [![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white)](#)
 
 ---
 
 ## 🧮 Featured Projects
 
-| Project | Description | Tools |
+**📐 From Geometry to Motion: Modeling Sliding-Rolling Kinematics** ⭐ *(Thesis)*
+> Menurunkan persamaan kecepatan translasi & rotasi pada gerak sliding-rolling antar dua benda tegar menggunakan Darboux frame dan pendekatan adjoint — invarian terhadap sistem koordinat. Divalidasi lewat simulasi MATLAB pada kasus klasik cakram di atas bidang datar.
+> `Differential Geometry` `Rigid Body Kinematics` `MATLAB` `Python`
+
+**📈 Stock Market Index Construction & Financial Data Analysis**
+> Membangun indeks pasar saham kustom dari data META, AMZN, AAPL, NFLX, dan GOOG — mencakup pembersihan data, perhitungan return, analisis statistik deskriptif, dan pivot table untuk evaluasi performa pasar.
+> `Financial Data Analysis` `Google Sheets` `Statistical Analysis`
+
+**🧭 Waypoint Optimization on Great Circle Routes Using a Genetic Algorithm**
+> Mengoptimalkan jumlah dan posisi waypoint rute pelayaran Teluk Bayur–Port Elizabeth menggunakan geometri eliptik dan algoritma genetika, mengevaluasi trade-off lewat nilai Remaining Benefit (RB).
+> `Elliptic Geometry` `Genetic Algorithm` `MATLAB`
+
+**📢 Modeling the Spread of Dropout Rumors Among University (SPIUH Model)**
+> Model kompartemental nonlinier untuk dinamika penyebaran rumor akademik di kampus — analisis stabilitas titik ekuilibrium via matriks Jacobian, dan basic reproduction number (R₀) lewat Next Generation Matrix.
+> `Dynamical Systems` `Stability Analysis` `MATLAB`
+
+<sub>Proyek lain: Optimasi Gizi Gen-Z Sumatera Barat via Metode Simplex (2024) — riset tim, pemodelan linear programming</sub>
+
+---
+
+## 🏅 Certifications
+
+| Certificate | Issuer | Date |
 | --- | --- | --- |
-| 📐 **Darboux Frame Kinematics** ⭐ | Kinematika sliding-rolling antar permukaan reguler — thesis, differential geometry | MATLAB · Differential Geometry |
-| 📈 **FAANG Free-Float Market Index** | Indeks pasar saham berbasis free-float market capitalization | Google Sheets · Financial Data |
-| 🦠 **SPIH Compartmental Model** | Simulasi dinamika penyebaran epidemi / informasi dalam populasi | Mathematical Modeling |
-| 🧬 **Genetic Algorithm Waypoint Optimization** | Studi optimasi rute menggunakan algoritma genetika | Optimization · Simulation |
+| 📊 Construct Stock Market Indices | Coursera | May 2026 |
+| 📗 Getting Started with Microsoft Excel | Coursera | May 2026 |
+| 📈 Mini Course Data Analytics | RevoU | May 2026 |
+| 🗣️ TOEFL Prediction — Score 553 | Central Course | Aug 2025 – Aug 2027 |
 
 ---
 
 ## 🏛️ Organizations & Leadership
 
-**Executive Chair — Pekan Seni Bermatematika XXII**
-> Memimpin 250+ anggota panitia · 700+ peserta · sponsorship eksternal
+**Executive Chair — Pekan Seni Bermatematika XXII** *(national-level event, Jun 2025 – Jan 2026)*
+> Memimpin 250+ anggota panitia lintas divisi · 700+ peserta · mengamankan sponsorship eksternal
 
-**Head of Upgrading & Recruitment — Lab. Matematika Komputasi & Data Science**
-> Mengelola proses upgrading dan rekrutmen anggota laboratorium
+**Steering Committee — Musyawarah Anggota XXVIII** *(Feb – Jun 2026)*
+> Penasihat strategis proses pengambilan keputusan organisasi
 
-**Asisten Laboratorium & Pengajaran — Universitas Andalas**
-> 4 semester · 40–60 mahasiswa/semester · Metode Numerik, Algoritma & Pemrograman, Persamaan Diferensial, Metode Statistika, Statistika Matematika
+**Head of Upgrading & Recruitment — Lab. Matematika Komputasi & Data Science** *(Jul 2024 – Mar 2026)*
+> Merancang program pelatihan & memimpin proses rekrutmen asisten laboratorium baru
+
+**Asisten Laboratorium & Pengajaran — Universitas Andalas** *(4 semester)*
+> 40–60 mahasiswa/semester · Metode Numerik, Algoritma & Pemrograman, Persamaan Diferensial, Statistika Matematika, Fungsi Kompleks, Linear Programming
+
+**Logistics Coordinator — PSB XXI & Musyawarah Anggota XXVII** *(2024)*
+> Koordinasi logistik acara skala nasional: panggung, sound system, hingga vendor
 
 **Himatika & BEM KM FMIPA — Universitas Andalas**
-> Berbagai peran organisasi tingkat jurusan dan fakultas
+> Disciplinary Commission (Training Himatika Character) · Staff Advocacy & Student Welfare
 
 ---
 
